@@ -1,6 +1,6 @@
 //=============================================================================
 // Death Counter Plugin
-// by: MrMadara - https://github.com/MrMadaraUchiha
+// by: MrMadara - https://github.com/MrMadaraUchiha/DeathCounter-RPG-Maker-MV
 //=============================================================================
 
 (function() {
