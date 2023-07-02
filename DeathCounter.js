@@ -1,6 +1,6 @@
 //=============================================================================
-// Death Counter Plugin versão 1.0 - 15/06/2023 - Contagem de mortes.
-// Death Counter Plugin versão 2.0 - 02/07/2023 - 
+// Death Counter Plugin versão 1.0 - 15/06/2023
+// Death Counter Plugin versão 2.0 - 02/07/2023
 //=============================================================================
 
 (function() {
