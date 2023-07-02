@@ -1,26 +1,40 @@
-# RPG Maker Death Counter Plugin
+# RPG Maker MV - Plugin DeathCounter.
 
-Este é um plugin para o RPG Maker MV que atribui um contador de mortes ao jogador.
+Este é um plugin para RPG Maker MV que permite atribuir um contador de mortes ao jogador, rastreando o número de eliminações feitas durante o jogo.
+
+## Recursos
+
+- Contador de mortes para rastrear o número de eliminações do jogador.
+- Modos de dificuldade para ajustar o número máximo de mortes permitidas e a penalidade por morte.
+- Recompensas por atingir certos marcos de mortes.
+- Comandos de plugin para incrementar o contador de mortes e alterar o modo de dificuldade durante o jogo.
 
 ## Instalação
 
-1. Faça o download do arquivo `DeathCounter.js`.
-2. Coloque o arquivo na pasta `js/plugins` do seu projeto do RPG Maker MV.
-3. Ative o plugin no RPG Maker MV na seção "Gerenciar Plugins".
+1. Faça o download do arquivo `deathcounter.js`.
+2. Coloque o arquivo `deathcounter.js` na pasta `js/plugins` do seu projeto RPG Maker MV.
+3. No RPG Maker MV, abra o Gerenciador de Plugins e ative o "Death Counter Plugin".
 
 ## Uso
 
-Você pode incrementar o contador de mortes do jogador usando o seguinte comando de plugin:
+- Use o comando de plugin `IncrementDeathCounter` para incrementar o contador de mortes.
+- Use o comando de plugin `SetDeathCounterMode` para alterar o modo de dificuldade.
+- Personalize as configurações de modos de dificuldade, recompensas e marcos de mortes no código do plugin.
 
-Para exibir o contador de mortes em algum lugar do seu jogo, você pode usar o seguinte código em um evento de texto:
+## Exemplo de Uso
 
+Suponha que você queira incrementar o contador de mortes toda vez que um inimigo for derrotado. Você pode usar um evento comum para isso:
 
-Certifique-se de substituir `\\v[1]` pelo ID da variável que você deseja usar para exibir o contador de mortes.
+1. Crie um evento comum no RPG Maker MV.
+2. Adicione um comando de script no evento comum.
+3. No comando de script, insira o seguinte código: `DeathCounter.increment();`
+4. Chame esse evento comum sempre que um inimigo for derrotado.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, fique à vontade para enviar um pull request.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests) para melhorar este plugin.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+Este plugin está licenciado sob a [MIT License](LICENSE.md).
+
